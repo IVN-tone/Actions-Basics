@@ -9,6 +9,7 @@ env:
   APPLICATION_NAME       : "MyFlask"
   DEPLOY_PACKAGE_NAME    : "flask-deploy-ver-${{ github.sha }}"
 
+# check
 on:
   push:
     branches: [ "main" ]
